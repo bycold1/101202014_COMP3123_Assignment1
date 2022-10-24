@@ -8,7 +8,6 @@ const mongoString = process.env.MONGO_URI;
 const userRoute = require('./routes/User')
 const employeeRoute = require('./routes/Employees')
 
-mongoose.connect('mongodb+srv://bycold:sabedra123@cluster0.vw1fp6u.mongodb.net/?retryWrites=true&w=majority', ()=> {console.log("DB CONNECTED")});
 const app = express()
 app.use(express.json())
 const port = 3060;
