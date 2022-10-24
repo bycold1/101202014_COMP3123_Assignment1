@@ -1,0 +1,19 @@
+{
+  "name": "carlos",
+  "version": "1.0.0",
+  "description": "Assignment 1 for full-stack dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "carlos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.7",
+    "nodemon": "^2.0.20"
+  }
+}
